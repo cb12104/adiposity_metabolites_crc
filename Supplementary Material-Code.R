@@ -314,7 +314,7 @@ heterogeneity <- mr_heterogeneity(whr_rectal_dat, method_list=c("mr_egger_regres
 
 
 ##analysis of adipose traits on metabolites 
-##uses data on snp exposure and snp outcome associations downloaded from link (adipose traits) and MRBase (metabolites)
+##uses data on snp exposure and snp outcome associations downloaded from https://github.com/lindgrengroup/fatdistnGWAS (adipose traits) and MRBase (metabolites)
 
 #metabolites
 kettunen_ids <- ao[ao$pmid%in%"27005778", "id"]
